@@ -1,3 +1,4 @@
+/* https://learn.microsoft.com/en-us/windows/deployment/update/wufb-reports-do#mapping-groupid */
 (input as text) =>
 let
     listBin = List.Combine ({Binary.ToList(Text.ToBinary(input, TextEncoding.Unicode)),{0,0}}),
